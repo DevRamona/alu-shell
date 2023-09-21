@@ -1,2 +1,15 @@
-#!/bin/bash
-ls -a . .. /boot
+total 48
+-rwxr--r-- 1 root root 16 Sep 19 03:15 0-current_working_directory
+-rwxr--r-- 1 root root 17 Sep 21 02:59 10-back
+-rwxr--r-- 1 root root  0 Sep 21 03:08 11-lists
+-rwxr--r-- 1 root root 15 Sep 19 03:21 1-listit
+-rwxr--r-- 1 root root 17 Sep 19 03:30 2-bring_me_home
+-rwxr--r-- 1 root root 18 Sep 19 03:42 3-listfiles
+-rwxr--r-- 1 root root 19 Sep 19 03:53 4-listmorefiles
+-rwxr--r-- 1 root root 20 Sep 19 06:24 5-listfilesdigitonly
+-rwxr--r-- 1 root root 42 Sep 19 06:23 6-firstdirectory
+-rwxr--r-- 1 root root 50 Sep 19 06:21 7-movethatfile
+-rwxr--r-- 1 root root 45 Sep 20 03:39 8-firstdelete
+-rwxr--r-- 1 root root 42 Sep 20 03:40 9-firstdirdeletion
+drwxr-xr-x 2 root root  6 Sep 19 03:13 basics
+-rw-r--r-- 1 root root 12 Sep 19 03:14 README.md
