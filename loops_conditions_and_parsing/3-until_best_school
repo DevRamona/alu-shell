@@ -2,15 +2,12 @@
 # Using the until loop to  get "Best School" ten times 
 counter=0
 
- 
-
 until [ $counter -eq 10 ]
 
 do
 
     echo "Best School."
 
- 
 
     ((counter++))
 
