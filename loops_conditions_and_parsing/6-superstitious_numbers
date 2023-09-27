@@ -1,4 +1,4 @@
-#!/usr/bin env bash 
+#!/usr/bin/env bash 
 # Using the while loop to get bad luck from China  
 counter=1
 
