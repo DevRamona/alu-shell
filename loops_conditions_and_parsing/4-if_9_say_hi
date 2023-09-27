@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Using the while loop to get "Best school" and "Hi"
+counter=1
+
+ 
+
+while [ $counter -le 10 ]
+
+do
+
+    if [ $counter -eq 9 ]
+
+    then
+
+        echo -e "Best School\nHi"
+
+    else
+
+        echo "Best School"
+
+    fi
+
+    ((counter++))
+
+done
