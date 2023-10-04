@@ -1,3 +1,6 @@
-#!/usr/bin/env bash
-# Using ps to list all processes
-ps auxf | grep -E "[b]ash" | awk '{print $2, $11}'
+#!/bin/bash
+
+echo "List of processes containing 'bash':"
+pgrep -af "bash" | while read -r pid cmd; do
+  echo "PID: $pid, Command: $cmd"
+done
