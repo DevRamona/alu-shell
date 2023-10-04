@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Get a list of all running processes
 ps -ef
 # Display the processes in a user-oriented format
