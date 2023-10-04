@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "List of processes containing 'bash':"
 pgrep -af "bash" | while read -r pid cmd; do
