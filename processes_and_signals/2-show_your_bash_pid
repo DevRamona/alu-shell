@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-echo "List of processes containing 'bash':"
-pgrep -af "bash" | while read -r pid cmd; do
-  echo "PID: $pid, Command: $cmd"
-done
+# Using ps to list all processes with hierarchy 
+# shellcheck disable=SC2009
+ps aux --forest | grep "bash"
